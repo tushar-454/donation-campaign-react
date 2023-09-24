@@ -4,7 +4,7 @@ import logo from '../../assets/Logo.png';
 const Logo = () => {
   return (
     <div>
-      <Link to={'/'} state={'Donation campaign | Home'}>
+      <Link to={'/'} state={'Home'}>
         <img src={logo} alt='logo' />
       </Link>
     </div>
