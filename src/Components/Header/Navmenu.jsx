@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { FaBars, FaBarsStaggered } from 'react-icons/fa6';
-import { Link, useLoaderData } from 'react-router-dom';
+import { NavLink, useLoaderData } from 'react-router-dom';
 const Navmenu = () => {
   const [navShow, setNavShow] = useState(false);
   const menu = useLoaderData();
@@ -31,14 +31,22 @@ const Navmenu = () => {
         }`}
       >
         {menu?.map((item) => (
-          <Link
+          <NavLink
             to={item.path}
             state={item.name}
             key={item.id}
             onClick={handleHideNav}
           >
-            <span className='text-xl text-black'>{item.name}</span>
-          </Link>
+            {({ isActive }) => (
+              <span
+                className={`text-xl text-black ${
+                  isActive && 'text-primary underline underline-offset-4'
+                }`}
+              >
+                {item.name}
+              </span>
+            )}
+          </NavLink>
         ))}
       </div>
     </>
