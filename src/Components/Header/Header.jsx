@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header>
       <div className='container mx-auto px-4'>
-        <div className='flex justify-between items-center py-5'>
+        <div className='flex justify-between items-center py-5 relative'>
           <Logo />
           <Navmenu />
         </div>
