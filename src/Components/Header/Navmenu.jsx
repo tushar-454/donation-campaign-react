@@ -26,7 +26,7 @@ const Navmenu = () => {
         )}
       </div>
       <div
-        className={`flex flex-col md:flex-row absolute top-24 md:top-0 right-0 md:static gap-5 md:gap-10 text-right md:text-left  p-8 md:p-0 shadow-lg md:shadow-none transition scale-y-0 md:scale-y-100 origin-top backdrop-blur-lg md:backdrop-blur-0 w-full md:w-fit ${
+        className={`flex flex-col md:flex-row absolute top-24 md:top-0 right-0 md:static gap-5 md:gap-10 text-right md:text-left  p-8 md:p-0 shadow-lg md:shadow-none transition scale-y-0 md:scale-y-100 origin-top backdrop-blur-lg md:backdrop-blur-0 w-full md:w-fit z-50 ${
           navShow && 'scale-y-100'
         }`}
       >

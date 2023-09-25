@@ -1,4 +1,5 @@
 import { createBrowserRouter } from 'react-router-dom';
+import DonationCardDetails from '../Components/DonationCardDetails/DonationCardDetails';
 import Donations from '../Components/Donations/Donations';
 import Home from '../Components/Home/Home';
 import Statistics from '../Components/Statistics/Statistics';
@@ -8,12 +9,12 @@ const routes = createBrowserRouter([
   {
     path: '/',
     element: <Layout />,
-    loader: () => fetch('menu.json'),
+    loader: () => fetch('/menu.json'),
     children: [
       {
         path: '/',
         element: <Home />,
-        loader: () => fetch('Donations.json'),
+        loader: () => fetch('/Donations.json'),
       },
       {
         path: '/donation',
@@ -22,6 +23,11 @@ const routes = createBrowserRouter([
       {
         path: '/statistics',
         element: <Statistics />,
+      },
+      {
+        path: '/:category/:id',
+        element: <DonationCardDetails />,
+        loader: () => fetch('/Donations.json'),
       },
     ],
   },

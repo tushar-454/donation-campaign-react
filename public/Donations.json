@@ -8,7 +8,7 @@
     "card_bg_color": "#0052FF26",
     "text_color": "#0052FF",
     "description": "Provide clean and safe drinking water to communities in need.",
-    "price": 25
+    "donate": 25
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "card_bg_color": "#FF444A26",
     "text_color": "#FF444A",
     "description": "Provide essential medical supplies to hospitals and clinics.",
-    "price": 15
+    "donate": 15
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "card_bg_color": "#79C23F26",
     "text_color": "#79C23F",
     "description": "Help provide shelter and assistance to those experiencing homelessness.",
-    "price": 25
+    "donate": 25
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "card_bg_color": "#F8714726",
     "text_color": "#F87147",
     "description": "Support the establishment of community gardens for sustainable food production.",
-    "price": 10
+    "donate": 10
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "card_bg_color": "#F8714726",
     "text_color": "#F87147",
     "description": "Contribute to the preservation and promotion of art and cultural heritage.",
-    "price": 15
+    "donate": 15
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "card_bg_color": "#79C23F26",
     "text_color": "#79C23F",
     "description": "Support programs that mentor and guide at-risk youth.",
-    "price": 30
+    "donate": 30
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "card_bg_color": "#FF444A26",
     "text_color": "#FF444A",
     "description": "Support the rescue and care of animals in distress.",
-    "price": 10
+    "donate": 10
   },
   {
     "id": 8,
@@ -85,7 +85,7 @@
     "card_bg_color": "#0052FF26",
     "text_color": "#0052FF",
     "description": "Provide clean and safe drinking water to communities in need.",
-    "price": 25
+    "donate": 25
   },
   {
     "id": 9,
@@ -96,7 +96,7 @@
     "card_bg_color": "#0052FF26",
     "text_color": "#0052FF",
     "description": "Provide clean and safe drinking water to communities in need.",
-    "price": 25
+    "donate": 25
   },
   {
     "id": 10,
@@ -107,7 +107,7 @@
     "card_bg_color": "#FF444A26",
     "text_color": "#FF444A",
     "description": "Contribute to efforts to protect our planet's ecosystems.",
-    "price": 35
+    "donate": 35
   },
 
   {
@@ -119,7 +119,7 @@
     "card_bg_color": "#79C23F26",
     "text_color": "#79C23F",
     "description": "Provide care and companionship to senior citizens in need.",
-    "price": 20
+    "donate": 20
   },
   {
     "id": 12,
@@ -130,6 +130,6 @@
     "card_bg_color": "#F8714726",
     "text_color": "#F87147",
     "description": "Support relief efforts during natural disasters and emergencies.",
-    "price": 40
+    "donate": 40
   }
 ]
