@@ -1,7 +1,9 @@
 import PropTypes from 'prop-types';
 import { useState } from 'react';
+import { useLoaderData } from 'react-router-dom';
 import swal from 'sweetalert';
-const Hero = ({ searchFunc }) => {
+const Hero = ({ searchFunc, doFullAllCard }) => {
+  const allCard = useLoaderData();
   const [search, setSearch] = useState('');
   const handleSearch = (e) => {
     e.preventDefault();
@@ -10,7 +12,12 @@ const Hero = ({ searchFunc }) => {
       return;
     }
     searchFunc(search);
-    setSearch('');
+  };
+  const handleChange = (e) => {
+    setSearch(e.target.value);
+    if (e.target.value === '') {
+      doFullAllCard(allCard);
+    }
   };
   return (
     <div className='bg-[url("/src/assets/overlay.png")] bg-no-repeat bg-cover w-full h-[60vh] relative -top-28'>
@@ -29,7 +36,7 @@ const Hero = ({ searchFunc }) => {
                   type='search'
                   placeholder='search here ...'
                   value={search}
-                  onChange={(e) => setSearch(e.target.value)}
+                  onChange={handleChange}
                   className='w-full md:w-[420px] text-[#0B0B0B66] outline-none border border-line rounded-lg px-4 py-3'
                 />
                 <button
@@ -48,5 +55,6 @@ const Hero = ({ searchFunc }) => {
 };
 Hero.propTypes = {
   searchFunc: PropTypes.func.isRequired,
+  doFullAllCard: PropTypes.func.isRequired,
 };
 export default Hero;
