@@ -1,4 +1,16 @@
-const Hero = () => {
+import PropTypes from 'prop-types';
+import { useState } from 'react';
+import swal from 'sweetalert';
+const Hero = ({ searchFunc }) => {
+  const [search, setSearch] = useState('');
+  const handleSearch = () => {
+    if (!search) {
+      swal('Write a category!', '', 'info');
+      return;
+    }
+    searchFunc(search);
+    setSearch('');
+  };
   return (
     <div className='bg-[url("/src/assets/overlay.png")] bg-no-repeat bg-cover w-full h-[60vh] relative -top-28'>
       <div className='w-full h-full bg-[#FFFFFFDE] grid justify-center content-center'>
@@ -14,9 +26,14 @@ const Hero = () => {
               <input
                 type='search'
                 placeholder='search here ...'
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
                 className='w-full md:w-[420px] text-[#0B0B0B66] outline-none border border-line rounded-lg px-4 py-3'
               />
-              <button className='w-fit text-white bg-primary outline-none border border-primary px-4 py-3 rounded-tr-lg rounded-br-lg -ml-4 mr-4'>
+              <button
+                onClick={handleSearch}
+                className='w-fit text-white bg-primary outline-none border border-primary px-4 py-3 rounded-tr-lg rounded-br-lg -ml-4 mr-4'
+              >
                 Search
               </button>
             </div>
@@ -26,5 +43,7 @@ const Hero = () => {
     </div>
   );
 };
-
+Hero.propTypes = {
+  searchFunc: PropTypes.func.isRequired,
+};
 export default Hero;
