@@ -5,9 +5,9 @@ import Navmenu from './Navmenu';
 const Header = () => {
   const { pathname } = useLocation();
   return (
-    <header className={`z-50 ${pathname !== '/' ? 'bg-white' : ''}`}>
+    <header className={`${pathname !== '/' ? 'bg-white' : ''}`}>
       <div className='container mx-auto px-4'>
-        <div className='flex justify-between items-center py-5 relative'>
+        <div className='flex justify-between items-center py-5 relative z-50'>
           <Logo />
           <Navmenu />
         </div>
