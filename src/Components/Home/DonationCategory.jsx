@@ -12,7 +12,10 @@ const DonationCategory = ({ donationCategory }) => {
   } = donationCategory;
   return (
     <Link to={`/${category}/${id}`} state={`${category} - ${id} - ${title}`}>
-      <div className={`rounded-lg`} style={{ backgroundColor: card_bg_color }}>
+      <div
+        className='rounded-lg h-[310px]'
+        style={{ backgroundColor: card_bg_color }}
+      >
         <div className='cardImg'>
           <img src={picture} className='w-full' />
         </div>

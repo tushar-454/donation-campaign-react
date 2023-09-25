@@ -3,9 +3,10 @@ import { useState } from 'react';
 import swal from 'sweetalert';
 const Hero = ({ searchFunc }) => {
   const [search, setSearch] = useState('');
-  const handleSearch = () => {
+  const handleSearch = (e) => {
+    e.preventDefault();
     if (!search) {
-      swal('Write a category!', '', 'info');
+      swal('Input a category name!', '', 'info');
       return;
     }
     searchFunc(search);
@@ -23,19 +24,21 @@ const Hero = ({ searchFunc }) => {
               </h1>
             </div>
             <div className='searchGroup flex justify-center items-center'>
-              <input
-                type='search'
-                placeholder='search here ...'
-                value={search}
-                onChange={(e) => setSearch(e.target.value)}
-                className='w-full md:w-[420px] text-[#0B0B0B66] outline-none border border-line rounded-lg px-4 py-3'
-              />
-              <button
-                onClick={handleSearch}
-                className='w-fit text-white bg-primary outline-none border border-primary px-4 py-3 rounded-tr-lg rounded-br-lg -ml-4 mr-4'
-              >
-                Search
-              </button>
+              <form onSubmit={handleSearch}>
+                <input
+                  type='search'
+                  placeholder='search here ...'
+                  value={search}
+                  onChange={(e) => setSearch(e.target.value)}
+                  className='w-full md:w-[420px] text-[#0B0B0B66] outline-none border border-line rounded-lg px-4 py-3'
+                />
+                <button
+                  type='submit'
+                  className='w-fit text-white bg-primary outline-none border border-primary px-4 py-3 rounded-tr-lg rounded-br-lg -ml-4 mr-4'
+                >
+                  Search
+                </button>
+              </form>
             </div>
           </div>
         </div>
