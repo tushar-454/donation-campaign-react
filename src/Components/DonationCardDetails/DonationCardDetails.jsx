@@ -18,9 +18,14 @@ const DonationCardDetails = () => {
       );
     } else {
       donateList = JSON.parse(localStorage.getItem('donateId'));
-      // if (donateList.includes(id)) {
-      //   return;
-      // }
+      if (donateList.includes(id)) {
+        swal(
+          'You donate already!',
+          `You can't donate any more this category item, please donate another categories item.`,
+          'error'
+        );
+        return;
+      }
       donateList.push(id);
       localStorage.setItem('donateId', JSON.stringify(donateList));
       swal(
