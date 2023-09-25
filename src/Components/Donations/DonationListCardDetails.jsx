@@ -9,7 +9,7 @@ const DonationListCardDetails = ({ listCardDetails }) => {
     category_bg_color,
     card_bg_color,
     text_color,
-    donate,
+    price,
   } = listCardDetails;
   return (
     <div
@@ -35,7 +35,7 @@ const DonationListCardDetails = ({ listCardDetails }) => {
         </div>
         <div className='cardPrice px-5 pb-3'>
           <p className='font-semibold' style={{ color: text_color }}>
-            ${donate.toFixed(2)}
+            ${price.toFixed(2)}
           </p>
         </div>
         <div className='cardViewDetailsBtn px-5 pb-4'>

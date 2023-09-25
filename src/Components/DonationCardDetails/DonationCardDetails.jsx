@@ -4,7 +4,7 @@ const DonationCardDetails = () => {
   const cards = useLoaderData();
   const { id, category } = useParams();
   const card = cards.find((card) => card.id === parseInt(id));
-  const { picture, title, description, donate, text_color } = card;
+  const { picture, title, description, price, text_color } = card;
   const handleDonate = () => {
     let donateList = [];
 
@@ -13,7 +13,7 @@ const DonationCardDetails = () => {
       localStorage.setItem('donateId', JSON.stringify(donateList));
       swal(
         'Donation Successfull!',
-        `You donate on ${category} category about $${donate}`,
+        `You donate on ${category} category about $${price}`,
         'success'
       );
     } else {
@@ -30,7 +30,7 @@ const DonationCardDetails = () => {
       localStorage.setItem('donateId', JSON.stringify(donateList));
       swal(
         'Donation Successfull!',
-        `You donate on ${category} category about $${donate}`,
+        `You donate on ${category} category about $${price}`,
         'success'
       );
     }
@@ -48,7 +48,7 @@ const DonationCardDetails = () => {
               className='text-white px-4 py-2 ml-5 rounded-lg inline-block'
               style={{ backgroundColor: text_color }}
             >
-              Donate ${donate}
+              Donate ${price}
             </h1>
           </div>
         </div>
