@@ -40,12 +40,10 @@ const DonationCardDetails = () => {
       <div className='my-10'>
         <div className='cardPicture relative'>
           <img src={picture} className='w-full rounded-lg' />
-          <div
-            className='priceOverlays flex items-center absolute bottom-0 w-full h-[10vh] bg-[#00000050] rounded-br-lg rounded-bl-lg cursor-pointer'
-            onClick={handleDonate}
-          >
+          <div className='priceOverlays flex items-center absolute bottom-0 w-full h-[10vh] bg-[#00000050] rounded-br-lg rounded-bl-lg'>
             <h1
-              className='text-white px-4 py-2 ml-5 rounded-lg inline-block'
+              onClick={handleDonate}
+              className='text-white px-4 py-2 ml-5 rounded-lg inline-block cursor-pointer'
               style={{ backgroundColor: text_color }}
             >
               Donate ${price}
