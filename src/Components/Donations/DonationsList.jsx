@@ -1,6 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
+import noDonation from '../../assets/no-donation.gif';
 import DonationListCardDetails from './DonationListCardDetails';
 
 const Donations = () => {
@@ -25,8 +26,8 @@ const Donations = () => {
         <div className='my-10'>
           {donateCards.length === 0 ? (
             <>
-              <div className='text-4xl h-screen flex justify-center'>
-                No donation found 😭
+              <div className='text-4xl flex justify-center'>
+                <img src={noDonation} className='w-full' />
               </div>
             </>
           ) : (
