@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "picture": "../src/assets/research.jpg",
+    "picture": "https://i.postimg.cc/6pbVpVqd/research.jpg",
     "title": "Donate to Medical Research",
     "category": "Health",
     "category_bg_color": "#0052FF33",
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "picture": "../src/assets/classroom.jpg",
+    "picture": "https://i.postimg.cc/y8N1TcPp/classroom.jpg",
     "title": "Classroom Supplies",
     "category": "Education",
     "category_bg_color": "#FF444A33",
@@ -23,7 +23,7 @@
   },
   {
     "id": 3,
-    "picture": "../src/assets/uniform.jpg",
+    "picture": "https://i.postimg.cc/qM3HLQV7/uniform.jpg",
     "title": "School Uniform Donations",
     "category": "Clothing",
     "category_bg_color": "#79C23F33",
@@ -34,7 +34,7 @@
   },
   {
     "id": 4,
-    "picture": "../src/assets/food_bank.jpg",
+    "picture": "https://i.postimg.cc/0yXjwcpy/food-bank.jpg",
     "title": "Food Bank Contribution",
     "category": "Food",
     "category_bg_color": "#F8714733",
@@ -45,7 +45,7 @@
   },
   {
     "id": 5,
-    "picture": "../src/assets/homeless.jpg",
+    "picture": "https://i.postimg.cc/gk51LhxP/homeless.jpg",
     "title": "Meals for the Homeless",
     "category": "Food",
     "category_bg_color": "#F8714733",
@@ -56,7 +56,7 @@
   },
   {
     "id": 6,
-    "picture": "../src/assets/children.jpg",
+    "picture": "https://i.postimg.cc/MTWTQNvN/children.jpg",
     "title": "Children's Clothing Donations",
     "category": "Clothing",
     "category_bg_color": "#79C23F33",
@@ -67,7 +67,7 @@
   },
   {
     "id": 7,
-    "picture": "../src/assets/scholorship.jpg",
+    "picture": "https://i.postimg.cc/s29VJmWW/scholorship.jpg",
     "title": "Scholarship Fund",
     "category": "Education",
     "category_bg_color": "#FF444A33",
@@ -78,7 +78,7 @@
   },
   {
     "id": 8,
-    "picture": "../src/assets/global_health.jpg",
+    "picture": "https://i.postimg.cc/YS1cHSqB/global-health.jpg",
     "title": "Contribute to Global Health",
     "category": "Health",
     "category_bg_color": "#0052FF33",
@@ -89,7 +89,7 @@
   },
   {
     "id": 9,
-    "picture": "../src/assets/blood_donate.jpg",
+    "picture": "https://i.postimg.cc/9M16NN16/blood-donate.jpg",
     "title": "Donate Blood, Save Lives",
     "category": "Health",
     "category_bg_color": "#0052FF33",
@@ -100,7 +100,7 @@
   },
   {
     "id": 10,
-    "picture": "../src/assets/library.jpg",
+    "picture": "https://i.postimg.cc/3xF6ScL3/library.jpg",
     "title": "Library Development",
     "category": "Education",
     "category_bg_color": "#FF444A33",
@@ -112,7 +112,7 @@
 
   {
     "id": 11,
-    "picture": "../src/assets/winter.jpg",
+    "picture": "https://i.postimg.cc/4dHRS17w/winter.jpg",
     "title": "Warm Winter Clothing Donations",
     "category": "Clothing",
     "category_bg_color": "#79C23F33",
@@ -123,7 +123,7 @@
   },
   {
     "id": 12,
-    "picture": "../src/assets/kitchen.jpg",
+    "picture": "https://i.postimg.cc/Xvg2LBYq/kitchen.jpg",
     "title": "Community Soup Kitchen",
     "category": "Food",
     "category_bg_color": "#F8714733",
