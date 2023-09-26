@@ -17,7 +17,7 @@ const DonationCategory = ({ donationCategory }) => {
         style={{ backgroundColor: card_bg_color }}
       >
         <div className='cardImg'>
-          <img src={picture} className='w-full' />
+          <img src={picture} className='w-full rounded-tr-lg rounded-tl-lg' />
         </div>
         <div className='cardCategory px-5 py-3'>
           <h1
