@@ -31,7 +31,10 @@ const Hero = ({ searchFunc, doFullAllCard }) => {
               </h1>
             </div>
             <div className='searchGroup flex justify-center items-center'>
-              <form onSubmit={handleSearch}>
+              <form
+                onSubmit={handleSearch}
+                className='flex justify-center items-center'
+              >
                 <input
                   type='search'
                   placeholder='search here ...'
