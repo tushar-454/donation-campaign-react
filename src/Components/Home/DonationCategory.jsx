@@ -13,7 +13,7 @@ const DonationCategory = ({ donationCategory }) => {
   return (
     <Link to={`/${category}/${id}`} state={`${category} - ${id} - ${title}`}>
       <div
-        className='rounded-lg h-[310px]'
+        className='rounded-lg h-auto xl:h-[320px]'
         style={{ backgroundColor: card_bg_color }}
       >
         <div className='cardImg'>

@@ -20,7 +20,7 @@ const Hero = ({ searchFunc, doFullAllCard }) => {
     }
   };
   return (
-    <div className='bg-[url("/src/assets/overlay.png")] bg-no-repeat bg-cover w-full h-[60vh] relative -top-28'>
+    <div className='bg-[url("/src/assets/overlay.png")] bg-no-repeat bg-cover w-full h-[600px] relative -top-28'>
       <div className='w-full h-full bg-[#FFFFFFDE] grid justify-center content-center'>
         <div className='container mx-auto px-4'>
           {/* hero section content wraper  */}
