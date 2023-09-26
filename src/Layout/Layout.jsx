@@ -4,8 +4,9 @@ import Header from '../Components/Header/Header';
 
 const Layout = () => {
   const { state } = useLocation();
+  console.log(state);
   useEffect(() => {
-    document.title = `Donation campaign | ${state}`;
+    document.title = `Donation campaign ${state !== null ? `| ${state}` : ''}`;
   }, [state]);
   return (
     <div>

@@ -2,134 +2,134 @@
   {
     "id": 1,
     "picture": "https://i.ibb.co/hWYF7S4/Health.png",
-    "title": "Clean Water Project",
+    "title": "Donate to Medical Research",
     "category": "Health",
     "category_bg_color": "#0052FF33",
     "card_bg_color": "#0052FF26",
     "text_color": "#0052FF",
-    "description": "Provide clean and safe drinking water to communities in need.",
-    "price": 25
+    "description": "Your donation can fund critical medical research that leads to breakthroughs in treatments and cures for diseases.",
+    "price": 250
   },
   {
     "id": 2,
     "picture": "https://i.ibb.co/1JnTP7p/Education.png",
-    "title": "Medical Supplies Donation",
+    "title": "Classroom Supplies",
     "category": "Education",
     "category_bg_color": "#FF444A33",
     "card_bg_color": "#FF444A26",
     "text_color": "#FF444A",
-    "description": "Provide essential medical supplies to hospitals and clinics.",
-    "price": 15
+    "description": "Donate classroom supplies and materials to schools in need to ensure students have the resources for a quality education.",
+    "price": 150
   },
   {
     "id": 3,
     "picture": "https://i.ibb.co/kqxxWm1/Clothing.png",
-    "title": "Homeless Shelter Support",
+    "title": "School Uniform Donations",
     "category": "Clothing",
     "category_bg_color": "#79C23F33",
     "card_bg_color": "#79C23F26",
     "text_color": "#79C23F",
-    "description": "Help provide shelter and assistance to those experiencing homelessness.",
-    "price": 25
+    "description": "Support students and schools by donating school uniforms to ensure every child has appropriate attire for school.",
+    "price": 275
   },
   {
     "id": 4,
     "picture": "https://i.ibb.co/ZJPGQd1/Food.png",
-    "title": "Community Garden Initiative",
+    "title": "Food Bank Contribution",
     "category": "Food",
     "category_bg_color": "#F8714733",
     "card_bg_color": "#F8714726",
     "text_color": "#F87147",
-    "description": "Support the establishment of community gardens for sustainable food production.",
-    "price": 10
+    "description": "Donate non-perishable food items to your local food bank to help provide meals for those facing food insecurity.",
+    "price": 190
   },
   {
     "id": 5,
     "picture": "https://i.ibb.co/ZJPGQd1/Food.png",
-    "title": "Art and Culture Preservation",
+    "title": "Meals for the Homeless",
     "category": "Food",
     "category_bg_color": "#F8714733",
     "card_bg_color": "#F8714726",
     "text_color": "#F87147",
-    "description": "Contribute to the preservation and promotion of art and cultural heritage.",
-    "price": 15
+    "description": "Support shelters and organizations that provide meals to the homeless by donating food or funds.",
+    "price": 175
   },
   {
     "id": 6,
     "picture": "https://i.ibb.co/kqxxWm1/Clothing.png",
-    "title": "Youth Mentorship Program",
+    "title": "Children's Clothing Donations",
     "category": "Clothing",
     "category_bg_color": "#79C23F33",
     "card_bg_color": "#79C23F26",
     "text_color": "#79C23F",
-    "description": "Support programs that mentor and guide at-risk youth.",
-    "price": 30
+    "description": "Give gently used or new children's clothing to ensure kids have proper clothing as they grow.",
+    "price": 300
   },
   {
     "id": 7,
     "picture": "https://i.ibb.co/1JnTP7p/Education.png",
-    "title": "Animal Welfare Fund",
+    "title": "Scholarship Fund",
     "category": "Education",
     "category_bg_color": "#FF444A33",
     "card_bg_color": "#FF444A26",
     "text_color": "#FF444A",
-    "description": "Support the rescue and care of animals in distress.",
-    "price": 10
+    "description": "Support students' dreams of higher education by contributing to a scholarship fund. Help make education accessible to all.",
+    "price": 100
   },
   {
     "id": 8,
     "picture": "https://i.ibb.co/hWYF7S4/Health.png",
-    "title": "Clean Water Project",
+    "title": "Contribute to Global Health Initiatives",
     "category": "Health",
     "category_bg_color": "#0052FF33",
     "card_bg_color": "#0052FF26",
     "text_color": "#0052FF",
-    "description": "Provide clean and safe drinking water to communities in need.",
-    "price": 25
+    "description": "Support global health organizations in their efforts to improve health outcomes and access to healthcare worldwide.",
+    "price": 205
   },
   {
     "id": 9,
-    "picture": "https://i.ibb.co/hWYF7S4/Health.png",
-    "title": "Clean Water Project",
+    "picture": "https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaA4GuHq6m8H_1uwMwII9r0DBzefILSnRecP5UxqeXN-NCiSEc1sJtOowkAJ6yMxuhc3cUAwHTqxvr_ljQyvMKTw-fVx=w1920-h963",
+    "title": "Donate Blood, Save Lives",
     "category": "Health",
     "category_bg_color": "#0052FF33",
     "card_bg_color": "#0052FF26",
     "text_color": "#0052FF",
-    "description": "Provide clean and safe drinking water to communities in need.",
-    "price": 25
+    "description": "Every blood donation can save up to three lives. Consider donating blood to your local blood bank.",
+    "price": 325
   },
   {
     "id": 10,
     "picture": "https://i.ibb.co/1JnTP7p/Education.png",
-    "title": "Environmental Conservation",
+    "title": "Library Development",
     "category": "Education",
     "category_bg_color": "#FF444A33",
     "card_bg_color": "#FF444A26",
     "text_color": "#FF444A",
-    "description": "Contribute to efforts to protect our planet's ecosystems.",
-    "price": 35
+    "description": "Help build and improve libraries in underserved communities, providing access to knowledge and learning resources.",
+    "price": 225
   },
 
   {
     "id": 11,
     "picture": "https://i.ibb.co/kqxxWm1/Clothing.png",
-    "title": "Elderly Care Assistance",
+    "title": "Warm Winter Clothing Donations",
     "category": "Clothing",
     "category_bg_color": "#79C23F33",
     "card_bg_color": "#79C23F26",
     "text_color": "#79C23F",
-    "description": "Provide care and companionship to senior citizens in need.",
-    "price": 20
+    "description": "Donate warm winter coats, scarves, and gloves to help those in need stay warm during the cold months.",
+    "price": 240
   },
   {
     "id": 12,
     "picture": "https://i.ibb.co/ZJPGQd1/Food.png",
-    "title": "Disaster Relief Fund",
+    "title": "Community Soup Kitchen",
     "category": "Food",
     "category_bg_color": "#F8714733",
     "card_bg_color": "#F8714726",
     "text_color": "#F87147",
-    "description": "Support relief efforts during natural disasters and emergencies.",
-    "price": 40
+    "description": "Support local soup kitchens that provide hot meals to individuals and families in need within your community.",
+    "price": 400
   }
 ]
